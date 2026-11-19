@@ -1,0 +1,4005 @@
+{
+  "head" : {
+    "vars" : [ "club", "he", "en", "tm" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q206585"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל תל אביב"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "1017"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q223727"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Jerusalem F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר ירושלים"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "3793"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q773362"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Jaffa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי יפו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q907321"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Kiryat Shmona F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני קריית שמונה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "6028"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q986529"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Be'er Sheva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל באר שבע"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "2976"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17264445"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ironi Karmiel F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל כרמיאל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17332306"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Nahariya F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל נהריה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17505406"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Be'er Ya'akov F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי באר יעקב (כדורגל)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17509069"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Jaffa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר יפו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17509070"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Ramat Gan F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר רמת גן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17510539"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Tiberias F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17512489"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ramla F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל רמלה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18110360"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Petah Tikva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר פתח תקוה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18125183"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Amishav Petah Tikva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני עמישב פתח תקוה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18125312"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Beit Shemesh F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בית שמש"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18125485"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Daliyat al-Karmel F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי דלית אל-כרמל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18125520"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Dimona"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל דימונה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18125843"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Givat Olga"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט גבעת אולגה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126108"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agudat Sport Holon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "א.ס חולון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126153"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ihud Bnei Sumei F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל איחוד בני סמיע"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126155"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Iksal F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל אכסאל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126184"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Acre F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני עכו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126186"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Kfar Yona F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני כפר יונה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126189"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ironi Safed F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל צפת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126191"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Isfiya F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126320"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Kafr Qasim"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט כפר קאסם"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126352"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kfar Blum F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל כפר בלום"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126379"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Kiryat Malakhi F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני קריית מלאכי"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126381"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Ono F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל קריית אונו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126685"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ihud Bnei Majd al-Krum F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איחוד בני מג'ד אל כרום"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126906"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Merhavim F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126931"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Migdal HaEmek F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל מגדל העמק"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18126973"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Morasha Ramat HaSharon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל מורשה רמת השרון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127003"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Nahariya F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר נהריה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24909791"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Rishon LeZion"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24909811"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Daburiyya"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מ.ס. דבוריה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24909813"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ahi Bir al-Maksur F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24909814"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel F.C. Sandala Gilboa"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24910550"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "A.S. Ramat Eliyahu F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24911031"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kaukab F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל כאוכב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24911035"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Bnei Arraba"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24911070"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Kafr Kanna F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר כפר כנא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24912208"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Tzeirei Kafr Kanna"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט צעירי כפר כנא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24912369"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Netanya"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24963037"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Or Akiva F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24963723"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Rishon LeZion F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר ראשון לציון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24963724"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Gedera F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25182703"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Holon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי חולון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q25489905"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Ashdod F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר אשדוד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27628022"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Bnei M.M.B.E. HaGolan VeHaGalil"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27996205"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ahva Yarka F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28169688"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Pardes Katz F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר פרדס כץ"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28169691"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Pardes Katz F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי פרדס כץ"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28169704"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Tzeirei Tur'an"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28169707"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Zalafa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בני זלפה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28169711"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Sulam F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28169713"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ein Mahil F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28439809"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ra'anana A.F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל רעננה (כדורגל נשים)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28980428"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Kiryat Gat F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר קריית גת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30115978"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Makr F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30115979"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Ofakim F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני אופקים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30115982"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Reineh F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30115983"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Ihud Mashhad F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר איחוד משהד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48837064"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bu'eine F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בועיינה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48842068"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Tzeirei Lod"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48842078"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Nujeidat F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48842123"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Bnei Nahf F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q48842136"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Fureidis F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בני פוריידיס"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q65047247"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Nahalat Yitzhak Tel Aviv"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי נחלת יצחק תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q86004998"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Emek Hefer"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי בנות עמק חפר"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q103842673"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Tel Hanan"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל תל חנן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q106750915"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Bnei Reineh F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי בני ריינה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115821135"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Jaffa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117336866"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Kiryat Ata Bialik F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני קריית אתא ביאליק"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q124487430"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Kiryat Yam"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט קריית ים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q136503733"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kfar Saba 1928"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "כפר סבא 1928"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q223728"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי תל אביב"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "119"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q263126"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ashkelon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל אשקלון"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "19977"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q388401"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hakoah Amidar Ramat Gan F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הכח עמידר רמת גן"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "21535"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q605383"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Nof HaGalil F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל נוף הגליל"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "7000"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q670996"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Ashdod F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני אשדוד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q737714"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bnei Yehuda Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בני יהודה תל אביב"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "9095"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q761583"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kfar Saba F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל כפר סבא"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "7532"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1118683"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Nir Ramat HaSharon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל ניר רמת השרון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1130537"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Petah Tikva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל פתח תקווה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "262"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1130570"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bnei Sakhnin F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בני סכנין"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "4769"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1134595"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Jerusalem"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל ירושלים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2897176"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ahva Arraba F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אחווה עראבה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2898882"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Umm al-Fahm F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל אום אל-פחם"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2906405"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ramat Amidar F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי רמת עמידר"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2907598"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ashdod F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל אשדוד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127005"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Nahlat Yehuda F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127007"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Nahliel F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל נחליאל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127030"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Nazareth F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בני נצרת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127049"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Nesher F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני נשר"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127455"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ramot Menashe Megiddo F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל רמות מנשה מגידו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127708"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Sakhnin F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל סכנין"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127884"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Sektzia Ma'alot-Tarshiha F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי סקציה מעלות תרשיחא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18127958"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Shikun HaMizrah"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט שיכון המזרח"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18128737"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Tirat HaCarmel F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל טירת הכרמל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18129433"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Yeruham F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל ירוחם"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18129455"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Zikhron Ya'akov F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי זכרון יעקב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18205191"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Be'er Ya'akov F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל באר יעקב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18205970"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Haifa"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל רובי שפירא חיפה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18206309"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel HaMechonit F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל המכונית"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18206327"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Rehovot F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל רחובות (כדורגל)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18206474"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Hod HaSharon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל הוד השרון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18206832"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kafr Qasim Shouaa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18210984"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Shefa-'Amr F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי שפרעם"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348328"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ahva Haifa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348331"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Aliyah Kfar Saba F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348334"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bik'at HaYarden F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בקעת הירדן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348339"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Eilat F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל אילת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348343"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kafr Kanna F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל כפר כנא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348346"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Haim F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל קריית חיים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348348"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Mevaseret Zion F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל מבשרת ציון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348352"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Pardesiya F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18348356"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ramat Yisrael F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18350496"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ahi Acre F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18351261"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Sderot F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני שדרות"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18352175"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Beit Shemesh F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני בית שמש"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18352179"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Modi'in F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני מודיעין"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18354487"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Bnei Jaffa Ortodoxim"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בני יפו אורתודוקסים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18354488"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Ironi Or Yehuda"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון כדורגל עירוני אור יהודה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18354491"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Nazareth Illit Hanan Ohayon"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2908659"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Kafr Kanna F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי כפר כנא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2908679"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Kiryat Ata F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני קריית אתא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2912218"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Sha'arayim F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי שעריים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2912223"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Tiberias F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני טבריה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2919982"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Yavne F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי יבנה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3311148"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Asi Gilboa"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל אסי-גלבוע"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4881476"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Haifa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר חיפה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4881478"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Avraham Be'er Sheva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר אברהם באר שבע"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4881479"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Kfar Saba F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר כפר סבא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4881481"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Ramla F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר רמלה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4930977"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bnei Eilat F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בני אילת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5425010"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "FC Kiryat Gat"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מ.ס. קריית גת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5516408"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gadna Tel Aviv Yehuda F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "גדנ\"ע יהודה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5640562"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hakoah Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הכח תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5652136"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Balfouria F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בלפוריה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5652148"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Jadeidi F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בני-ג'דידה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5652152"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Tamra F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בני טמרה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5652171"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Herzliya F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל הרצליה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5652172"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Shalom F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5652175"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Shmona F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5652185"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Mahane Yehuda F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל מחנה יהודה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6073188"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Hadera F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל חדרה גבעת אולגה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "51931"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6584454"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Tamra F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי טמרה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6585084"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kfar Shalem F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל כפר שלם"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6590608"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Tzur Shalom F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי צור שלום"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6669874"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel F.C. Ortodoxim Lod"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אורתודוכסים לוד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6679505"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Daliyat al-Karmel F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל דליית אל כרמל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6692871"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi HaShikma Ramat Hen F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי השקמה/רמת חן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722835"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi HaSharon Netanya F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722851"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Tirat HaCarmel F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני טירת הכרמל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722853"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Bat Yam F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני בת ים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722854"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Jatt F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני ג'ת אל-אהלי"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722856"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Nes Tziona F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי נס ציונה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722857"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Neve Sha'anan Eldad F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי נווה שאנן אלדד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722870"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ramat Gan F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי רמת גן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722871"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Rehovot F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי רחובות (כדורגל)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6722873"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Rishon LeZion F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי ראשון לציון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6777330"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ramla F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי רמלה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6819958"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shimshon Bnei Tayibe F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שמשון בני טייבה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6829225"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Netivot F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי עירוני נתיבות"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6831386"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ironi Shlomi F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי שלומי/נהריה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6884510"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bat Yam F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בת ים (כדורגל)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9183324"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Holon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל חולון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9190532"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Be'er Sheva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי באר שבע"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q9193005"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Lod F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל לוד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11124462"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Umm al-Fahm F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי אום אל-פחם"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q12406878"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Arad F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל ערד-תמר"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q15223662"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Afula F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל עפולה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16840478"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel HaTzafon Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל הצפון תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16844187"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Hadera F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי חדרה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16844197"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Jerusalem F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי חשמונאי ירושלים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16845762"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Netanya F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל נתניה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17052901"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Tiberias F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל טבריה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17150401"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Azor F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל אזור"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3783250"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל עירוני ראשון לציון (קטרגל)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3859706"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי קביליו יפו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q104541996"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הכח גלי-גיל רמת-גן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q135917810"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בנות עירוני מודיעין (כדורגל נשים)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2502185"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2573931"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Yehud F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל יהוד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2598302"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sektzia Nes Tziona F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "סקציה נס ציונה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "30062"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2616129"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר תל אביב"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "10763"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2617801"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Lod F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בני לוד"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "24026"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2704453"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shimshon Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שמשון תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2795016"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Marmorek F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל מרמורק"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49711"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Petah Tikva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי פתח תקווה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "3785"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q426513"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Netanya F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי נתניה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "5223"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q455991"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Haifa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל חיפה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "810"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1138191"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Ashdod"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט אשדוד"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "6105"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1344306"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ramat Gan Giv'atayim F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל רמת-גן גבעתיים"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "2785"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1355817"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Tayibe F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל טייבה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1513003"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Acre F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל עכו"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "6025"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1577020"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Katamon Jerusalem F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל קטמון ירושלים (כדורגל גברים)"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1580781"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ahi Nazareth F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי אחי נצרת"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "2828"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1584246"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Rishon LeZion F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל ראשון לציון"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "554"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1632362"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Herzliya F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי הרצליה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "8907"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2012138"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Kiryat Gat F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי קריית גת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2057411"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Beit She'an F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בית שאן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2129100"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Haifa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי חיפה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "1064"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2147968"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Nes Tubruk F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר טוברוק"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2259417"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Jerusalem F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל ירושלים"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "43119"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2347701"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ra'anana A.F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל רעננה"
+      },
+      "tm" : {
+        "type" : "literal",
+        "value" : "20857"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2468781"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Tzafririm Holon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל צפרירים חולון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18358772"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bnei Yeechalal Rehovot F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בני יצ'אלאל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18378390"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Yavne F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר יבנה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18392538"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel HaDarom Tel Aviv F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18392539"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Sderot F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל שדרות"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18612205"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ahva Notzrit Haifa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619148"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Ezra F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר עזרא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619209"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Degel Zion Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "דגל ציון תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619227"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Elitzur Jaffa Tel Aviv F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "אליצור יפו תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619231"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Roei Heshbon Tel Aviv"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט רואי חשבון תל אביב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619281"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Jaffa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל יפו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619283"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Neve Golan F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619285"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harari Tel Aviv F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18619399"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Shmuel Tel Aviv F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18639127"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Lod F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר לוד"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18639268"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Giv'atayim F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל גבעתיים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18639269"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Givat Haim F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל גבעת חיים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18639272"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Ata F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל קריית אתא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18639274"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Zikhron Ya'akov F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18712099"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Agudat Sport Nordia Jerusalem F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר נורדיה ירושלים"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18712215"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Be'er Sheva Haim Levy"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון כדורגל באר שבע חיים לוי"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18712951"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Tira"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מ.ס. טירה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18713016"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel F.C. Hevel Modi'in"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19599073"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ahi Iksal F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי אחי איכסל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19604392"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Tzeirei Rahat"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19604415"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Mishmar HaShiv'a F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19604429"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ironi Baqa al-Gharbiyye F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל באקה אל-גרבייה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19604430"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ironi Or Akiva F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל עירוני אור עקיבא"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19903196"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Afikim F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19903429"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ihud Bnei Baqa F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "איחוד בני בקה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19903477"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Beit Dagan F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני בית דגן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19903479"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar al-Amal Nazareth F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר אל עמל נצרת"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19903481"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Kiryat Tiv'on F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר קריית טבעון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19903483"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Pardes Hanna F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר פרדס חנה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19904040"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Gedera F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19904170"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Malakhi F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19904226"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Holon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר חולון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20716141"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. al-Nahda Nazareth"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20716768"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel al-Ittihad Nazareth F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988630"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Degel Yehuda Haifa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988634"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Ahva Kafr Manda"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988635"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Arad"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988637"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Bnei Ra'anana"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988651"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hakoah Haifa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988652"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bavli Tel Aviv F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988653"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel HaNamal Haifa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988657"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Hurfeish F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל בני חורפיש"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988660"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ihud Bnei Kafr Qara F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988663"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ironi Bnei Kabul F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "עירוני בני כאבול"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988664"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Isfiya F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988678"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Kiryat Ekron F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988679"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Kiryat Ono F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית''ר קריית אונו"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988680"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Yam F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988698"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Afula F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988699"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ashkelon F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מכבי אשקלון"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988700"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Ein Ganim F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988713"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Merom HaGalil F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל מרום הגליל"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988727"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Otzma F.C. Holon"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988730"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Pardes Hanna-Karkur"
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "מועדון ספורט פרדס חנה-כרכור"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988734"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Rahat F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988748"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shikun Vatikim Ramat Gan F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "שיכון ותיקים רמת גן"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988787"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Tirat Shalom F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל טירת שלום"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20988815"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bnei Yehud F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21180983"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brit Poalei Eretz Yisrael Haifa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q21180985"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brit Poalei Eretz Yisrael Nazareth F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q22935784"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "HaKochav Lod F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23020691"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Dov Netanya F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר דב נתניה"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23198408"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Dror Haifa F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185166"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Ashdod F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185167"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bnei al-Salam Rahat F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185168"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Masos/Segev Shalom F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "הפועל שגב שלום"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185169"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maccabi Segev Shalom F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185176"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Tzeirei Tamra"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185248"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beitar Giv'at Ze'ev F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בית\"ר גבעת זאב"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185251"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Kiryat Gat F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185271"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Ihud Bnei Jatt F.C."
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185272"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "F.C. Julis"
+      }
+    }, {
+      "club" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q24185273"
+      },
+      "en" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hapoel Bnei Ar'ara 'Ara F.C."
+      },
+      "he" : {
+        "xml:lang" : "he",
+        "type" : "literal",
+        "value" : "בני ערערה עארה"
+      }
+    } ]
+  }
+}
