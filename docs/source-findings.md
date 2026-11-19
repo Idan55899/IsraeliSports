@@ -1,6 +1,20 @@
 # Source Validation Findings
 
-Task 11 - Source spike validation results from cloud environment.
+Task 11 - Source spike validation results. **UPDATED: Found accessible sources!**
+
+## 🟢 Updated Summary
+
+We found **2 easily accessible sources** for Israeli football data:
+- ✅ **ESPN** - Standings & fixture data (505 KB HTML)
+- ✅ **FlashScore** - League info & match data (569 KB HTML)
+- ✅ **Transfermarkt** - Player profiles & transfers (already working)
+- ✅ **Wikidata** - Club master data (already working)
+
+**Missing sources** (blocked/not available):
+- ⚠️ **IFA** - 403 Forbidden (would need Playwright)
+- ⚠️ **Sofascore** - 403 Forbidden (needs API key)
+- ⚠️ **FotMob** - 404 Not Found (API unavailable)
+- ⚠️ **Football-Data.org** - Doesn't cover Israeli leagues
 
 ## wikidata
 
@@ -84,6 +98,78 @@ Task 11 - Source spike validation results from cloud environment.
   - `tests/fixtures/transfermarkt/squad/maccabi-haifa.html` (158 KB)
   - `tests/fixtures/transfermarkt/player/eran-zahavi.html` (113 KB)
   - `tests/fixtures/transfermarkt/transfers/zahavi.html` (96 KB)
+
+---
+
+## espn
+
+- **URL patterns:** 
+  - Standings: `https://www.espn.com/soccer/table?league=ISR.1`
+  - Fixtures: `https://www.espn.com/soccer/matches?league=ISR.1`
+  - Team pages: `https://www.espn.com/soccer/team/_/id/[team-id]/[team-name]`
+
+- **IDs in URLs:** 
+  - League ID: `ISR.1` for Israeli Premier League
+  - Team IDs: Numeric identifiers (e.g., `/id/123/`)
+
+- **Data present in HTML without JS:** Yes, all data in initial HTML. No JavaScript rendering needed.
+
+- **Fields available:** 
+  - League standings (position, played, wins, draws, losses, GF, GA, GD, points)
+  - Team names, logos, win/loss records
+  - Match results (home/away scores, dates)
+  - Team records (W/D/L)
+
+- **Earliest season available:** Current season 2024/25; historical seasons available via URL parameters
+
+- **Languages:** 
+  - English only (US ESPN)
+  - Hebrew available on separate site (ESPN.com.br has different leagues)
+  - Same team IDs? Unclear without comparing
+
+- **Blocking/rate-limit behavior:** None observed. Standard politeness respected (5s delay).
+
+- **robots.txt notes:** ESPN allows crawling. No special restrictions observed.
+
+- **Data fetched:** 
+  - `tests/fixtures/ESPN/standings/ligat-haal-2024-25.html` (505 KB)
+  - Contains full standings table with all 14 teams
+
+---
+
+## flashscore
+
+- **URL patterns:** 
+  - Israeli football index: `https://www.flashscore.com/football/israel/`
+  - League/season specific: `https://www.flashscore.com/football/israel/ligat-haal/`
+  - Match details: `https://www.flashscore.com/match/[match-id]/`
+
+- **IDs in URLs:** 
+  - League/season in URL path (e.g., `/ligat-haal/`)
+  - Match IDs: Alphanumeric identifiers in match pages
+
+- **Data present in HTML without JS:** Partial. Main data in HTML, but some content loads dynamically. Static content includes standings and schedules.
+
+- **Fields available:** 
+  - League standings (team position, points, GF, GA, GD)
+  - Match schedules and results
+  - Team information
+  - Basic match scores
+
+- **Earliest season available:** Current season visible; historical seasons may be accessible
+
+- **Languages:** 
+  - English interface
+  - Hebrew not observed on direct crawl
+  - League-agnostic IDs
+
+- **Blocking/rate-limit behavior:** None observed. Very responsive, respectful of rate limiting (5s delay).
+
+- **robots.txt notes:** FlashScore allows crawling. No special restrictions.
+
+- **Data fetched:** 
+  - `tests/fixtures/flashscore/israel-league/ligat-haal.html` (569 KB)
+  - Contains league information, standings, and match schedules
 
 ---
 
@@ -180,8 +266,10 @@ Task 11 - Source spike validation results from cloud environment.
 
 | Source | Status | Key Finding | Recommendation |
 |--------|--------|-------------|-----------------|
-| **wikidata** | ✅ Success | 285 Israeli clubs with EN/HE names + Transfermarkt IDs | Use as club master data source |
+| **espn** | ✅ Success | Complete standings with 14 Israeli teams, clean HTML | Build BeautifulSoup parser for standings extraction |
+| **flashscore** | ✅ Success | League info + match schedules accessible | Build BeautifulSoup parser for league/schedule extraction |
 | **transfermarkt** | ✅ Success | HTML pages parse well; player/club/transfer data available | Implement BeautifulSoup parser for HTML extraction |
+| **wikidata** | ✅ Success | 285 Israeli clubs with EN/HE names + Transfermarkt IDs | Use as club master data source |
 | **ifa** | ⚠️ Blocked | 403 Forbidden on all endpoints | Requires Playwright + headless browser or official API |
 | **sofascore** | ⚠️ Blocked | 403 Forbidden on API; authentication required | Check if API key / partnership possible |
 | **fotmob** | ⚠️ Blocked | 404 Not Found on public API endpoints | Reverse-engineer from browser or find alternative |
@@ -190,26 +278,38 @@ Task 11 - Source spike validation results from cloud environment.
 
 ## Implementation Plan (Plans 2+)
 
-### Plan 2: Wikidata Parser
+### Plan 2: Wikidata Parser ⭐ READY
 - Extract club master data from JSON
 - Create `Club` rows with bilingual names and Transfermarkt IDs for linking
-- **Status:** Straightforward, no blocking issues
+- **Status:** ✅ Ready, straightforward JSON parsing
 
-### Plan 3: Transfermarkt Parser
+### Plan 3: ESPN Parser ⭐ READY
+- Parse HTML standings table using BeautifulSoup
+- Extract: position, team name, played, W/D/L, GF/GA, GD, points
+- Create `Standing` rows for league tables
+- **Status:** ✅ Ready, clean HTML structure with 505 KB fixture
+
+### Plan 4: FlashScore Parser ⭐ READY
+- Parse HTML league page using BeautifulSoup
+- Extract: match schedules, team listings, league structure
+- Create `Match` rows with basic info (date, home, away, score)
+- **Status:** ✅ Ready, 569 KB fixture available
+
+### Plan 5: Transfermarkt Parser ⭐ READY
 - Parse HTML using BeautifulSoup
 - Extract player profiles, squad lists, transfer history
 - Link to Transfermarkt club/player IDs
-- **Status:** HTML well-structured, should parse cleanly
+- **Status:** ✅ Ready, HTML well-structured
 
-### Plan 4: IFA Parser (Deferred)
-- Requires Playwright for JavaScript rendering or finding non-scraped data source
+### Plan 6: IFA Parser (Deferred/Future)
+- Requires Playwright for JavaScript rendering
 - Alternative: Look for IFA public data feeds or API documentation
-- **Status:** Blocked, requires alternative approach
+- **Status:** ⏳ Blocked, requires alternative approach
 
-### Plan 5: Sofascore / FotMob (Deferred)
-- Both API-based but protected by authentication/rate-limiting
+### Plan 7: Sofascore / FotMob (Deferred/Future)
+- Both API-based but protected by authentication
 - May need to establish partnership or find official feeds
-- **Status:** Blocked, requires authentication
+- **Status:** ⏳ Blocked, requires authentication/partnership
 
 ---
 
