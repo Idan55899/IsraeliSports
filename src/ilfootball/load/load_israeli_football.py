@@ -8,6 +8,7 @@ import duckdb
 from ilfootball.load.upsert import upsert
 from ilfootball.resolve.id_map import IdMap
 from ilfootball.sources.espn import parse_standings_html
+from ilfootball.sources.football_co_il import parse_matches_html
 from ilfootball.sources.transfermarkt import parse_clubs_index_html, parse_squad_html
 from ilfootball.sources.wikidata import parse_clubs_json
 
@@ -72,6 +73,26 @@ def load_from_fixtures(con: duckdb.DuckDBPyConnection, fixtures_dir: Path | str 
     else:
         print(f"   ⚠️  Fixture not found: {espn_file}")
 
+    # Load Football.co.il matches
+    print("\n📥 Loading Football.co.il matches...")
+    football_co_il_files = [
+        fixtures_dir / "football_co_il" / "all_scores.html",
+        fixtures_dir / "football_co_il" / "team_scores.html",
+    ]
+    for fcil_file in football_co_il_files:
+        if fcil_file.exists():
+            content = fcil_file.read_bytes()
+            try:
+                matches = list(parse_matches_html(content))
+                match_count = upsert(con, matches)
+                key = f"football_co_il_matches_{fcil_file.stem}"
+                counts[key] = match_count
+                print(f"   ✓ Loaded {match_count} matches from {fcil_file.name}")
+            except Exception as e:
+                print(f"   ⚠️  Error parsing {fcil_file.name}: {e}")
+        else:
+            print(f"   ⚠️  Fixture not found: {fcil_file}")
+
     return counts
 
 
@@ -81,7 +102,7 @@ def show_loaded_data(con: duckdb.DuckDBPyConnection) -> None:
     print("📊 LOADED DATA SUMMARY")
     print("=" * 70)
 
-    tables = ["club", "player", "competition", "season", "standing"]
+    tables = ["club", "player", "competition", "season", "standing", "match"]
 
     for table in tables:
         try:
@@ -107,6 +128,13 @@ def show_loaded_data(con: duckdb.DuckDBPyConnection) -> None:
                     ).fetchall()
                     for club_id, pos, pts in sample:
                         print(f"    - {club_id}: Position {pos}, {pts} points")
+
+                elif table == "match" and count > 0:
+                    sample = con.execute(
+                        f"SELECT home_club_id, away_club_id, home_goals, away_goals FROM {table} LIMIT 3"
+                    ).fetchall()
+                    for home, away, hg, ag in sample:
+                        print(f"    - {home} {hg}-{ag} {away}")
         except duckdb.CatalogException:
             pass
 

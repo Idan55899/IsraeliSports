@@ -89,7 +89,7 @@ def parse_standings_html(content: bytes) -> Iterable[Standing]:
 def parse_matches_html(content: bytes) -> Iterable[Match]:
     """Extract match results from football.co.il matches page.
 
-    Expected: Match list with home/away teams, scores, dates.
+    Uses div-based structure with 'current-round-details-row' class.
     """
     from bs4 import BeautifulSoup
 
@@ -97,53 +97,76 @@ def parse_matches_html(content: bytes) -> Iterable[Match]:
 
     matches = []
 
-    # Find match containers (structure varies, may need adjustment)
-    match_elements = soup.find_all('div', class_='match')  # or similar
+    # Find match row containers
+    match_rows = soup.find_all('div', class_='current-round-details-row')
 
-    for elem in match_elements:
+    for row in match_rows:
         try:
-            # Extract match info
-            # This is a template - exact selectors depend on page structure
-            home = elem.find(class_='home-team')
-            away = elem.find(class_='away-team')
-
-            if not home or not away:
+            # Extract team IDs from data attribute (e.g., "4548 4632")
+            data_team = row.get('data-team', '')
+            team_ids = data_team.split()
+            if len(team_ids) < 2:
                 continue
 
-            home_name = home.get_text(strip=True)
-            away_name = away.get_text(strip=True)
+            away_team_id, home_team_id = team_ids[0], team_ids[1]
 
-            # Extract score
-            score_elem = elem.find(class_='score')
-            if score_elem:
-                score_text = score_elem.get_text(strip=True)
-                # Parse "X-Y" format
-                parts = score_text.split('-')
-                home_goals = int(parts[0].strip()) if len(parts) > 0 else None
-                away_goals = int(parts[1].strip()) if len(parts) > 1 else None
-            else:
-                home_goals = away_goals = None
+            # Extract date and time from data attributes
+            date_str = row.get('data-date', '')  # Format: "18-08-26"
 
-            # Extract date
-            date_elem = elem.find(class_='date')
-            kickoff_utc = None
-            if date_elem:
-                date_text = date_elem.get_text(strip=True)
+            # Extract date, day, time, teams, score from labels
+            labels = row.find_all('label', class_='current-round-details-row-label')
+
+            if len(labels) < 5:
+                continue
+
+            # Labels order: date, day, time, team names (in one label with hyphen), score
+            date_text = labels[0].get_text(strip=True)  # e.g., "18.08.26"
+            day_text = labels[1].get_text(strip=True)   # e.g., "שלישי"
+            time_text = labels[2].get_text(strip=True)   # e.g., "19:30"
+            teams_text = labels[3].get_text(strip=True)  # e.g., "הפועל עפולה - מ.ס. אשדוד"
+            score_text = labels[4].get_text(strip=True) if len(labels) > 4 else ""
+
+            # Extract team names from "TeamA - TeamB" format
+            team_names = teams_text.split(' - ')
+            if len(team_names) < 2:
+                continue
+
+            home_name = team_names[0].strip()
+            away_name = team_names[1].strip()
+
+            if not home_name or not away_name:
+                continue
+
+            # Parse score "X - Y" format
+            home_goals = away_goals = None
+            if score_text and ' - ' in score_text:
+                parts = score_text.split(' - ')
                 try:
-                    # Try to parse various date formats
-                    for fmt in ('%d/%m/%Y', '%d.%m.%Y', '%Y-%m-%d'):
+                    home_goals = int(parts[0].strip())
+                    away_goals = int(parts[1].strip()) if len(parts) > 1 else None
+                except ValueError:
+                    pass
+
+            # Parse date and time
+            kickoff_utc = None
+            if date_text and time_text:
+                try:
+                    # Format is "18.08.26 19:30" -> interpret as "26.08.18 19:30" or based on date format
+                    date_parts = date_text.split('.')
+                    if len(date_parts) == 3:
+                        # Try "DD.MM.YY" format first
                         try:
-                            kickoff_utc = datetime.strptime(date_text, fmt)
-                            break
+                            parsed = datetime.strptime(f"{date_parts[0]}.{date_parts[1]}.20{date_parts[2]} {time_text}", "%d.%m.%Y %H:%M")
+                            kickoff_utc = parsed
                         except ValueError:
-                            continue
-                except:
+                            pass
+                except Exception:
                     pass
 
             # Create canonical IDs
-            home_id = f"cl-football-co-il-{home_name.lower().replace(' ', '-')}"
-            away_id = f"cl-football-co-il-{away_name.lower().replace(' ', '-')}"
-            match_id = f"ma-football-co-il-{home_name[:3].lower()}-{away_name[:3].lower()}-{kickoff_utc.timestamp() if kickoff_utc else 0}"
+            home_id = f"cl-football-co-il-{home_name.lower().replace(' ', '-').replace("'", '').replace('/', '-')}"
+            away_id = f"cl-football-co-il-{away_name.lower().replace(' ', '-').replace("'", '').replace('/', '-')}"
+            match_id = f"ma-football-co-il-{home_team_id}-{away_team_id}-{int(kickoff_utc.timestamp()) if kickoff_utc else 0}"
 
             match = Match(
                 match_id=match_id,
